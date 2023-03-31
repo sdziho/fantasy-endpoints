@@ -1,0 +1,32 @@
+_id: req_1a208ee73a804ebe93b1ee2b36415867
+type: Request
+parentId: fld_7e44854c1aaa4a539c5fb34c6ed53da7
+modified: 1680004261193
+created: 1679068428222
+url: localhost:4000/api/users/register
+name: /users/register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"Sadzid",
+    	"email":"sadz@gmail.com",
+    	"password":"12345678"
+    }
+parameters: []
+headers:
+  - id: pair_0bd40f846c494818b4cec1556f5743bf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication: {}
+metaSortKey: -1679408964270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

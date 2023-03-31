@@ -1,0 +1,33 @@
+_id: req_1eab5296a85442ab98de32c10ce2b93f
+type: Request
+parentId: fld_295dca38466d42278f75b980234287cf
+modified: 1680004273867
+created: 1679505893317
+url: localhost:4000/api/teams
+name: /teams
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"_id":"641b23415f087edf5d408d08"
+    }
+parameters: []
+headers:
+  - id: pair_0bd40f846c494818b4cec1556f5743bf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY3OTUwMTE1MiwiZXhwIjoxNjgwMTA1OTUyfQ.5Ot5VE3qdrZxi1xfoEchUtizpEXcMoSE1psVRX2yLsU
+  prefix: Bearer
+metaSortKey: -1679068428122
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

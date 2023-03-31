@@ -1,0 +1,30 @@
+_id: req_8c7d4a3d494843c3a836d858d74eaf26
+type: Request
+parentId: fld_295dca38466d42278f75b980234287cf
+modified: 1680004276073
+created: 1679506257486
+url: localhost:4000/api/teams/all
+name: /teams/all
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_0bd40f846c494818b4cec1556f5743bf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY3OTUwMTE1MiwiZXhwIjoxNjgwMTA1OTUyfQ.5Ot5VE3qdrZxi1xfoEchUtizpEXcMoSE1psVRX2yLsU
+  prefix: Bearer
+metaSortKey: -1679068428072
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
