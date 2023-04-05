@@ -1,0 +1,33 @@
+_id: req_d048cf30b2e7422e97f994f3820f81fb
+type: Request
+parentId: fld_7b6afab5d0b5407d843ebd427f2ee04c
+modified: 1680615049350
+created: 1680615039429
+url: localhost:4000/api/leagues/delete-league
+name: /leagues/delete-league
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"_id":"642c2600b25e1ea4a242a1fa"
+    }
+parameters: []
+headers:
+  - id: pair_0bd40f846c494818b4cec1556f5743bf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
+  prefix: Bearer
+metaSortKey: -1680422249890.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

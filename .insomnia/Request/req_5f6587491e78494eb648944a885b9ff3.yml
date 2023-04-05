@@ -1,0 +1,33 @@
+_id: req_5f6587491e78494eb648944a885b9ff3
+type: Request
+parentId: fld_7b6afab5d0b5407d843ebd427f2ee04c
+modified: 1680614910477
+created: 1680608965382
+url: localhost:4000/api/leagues/create-new-league
+name: /leagues/create-new-team
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name":"LIGA ZA BRISAT"
+    }
+parameters: []
+headers:
+  - id: pair_0bd40f846c494818b4cec1556f5743bf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
+  prefix: Bearer
+metaSortKey: -1680608956125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

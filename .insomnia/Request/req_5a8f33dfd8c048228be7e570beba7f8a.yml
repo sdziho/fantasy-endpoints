@@ -1,0 +1,33 @@
+_id: req_5a8f33dfd8c048228be7e570beba7f8a
+type: Request
+parentId: fld_7b6afab5d0b5407d843ebd427f2ee04c
+modified: 1680612194861
+created: 1680612167822
+url: localhost:4000/api/leagues/join-league
+name: /leagues/join-league
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"code":7693
+    }
+parameters: []
+headers:
+  - id: pair_0bd40f846c494818b4cec1556f5743bf
+    name: Content-Type
+    value: application/json
+    description: ""
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
+  prefix: Bearer
+metaSortKey: -1680502266848.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
