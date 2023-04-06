@@ -1,20 +1,19 @@
-_id: req_8e658b49bc1249db9583719b09a48662
+_id: req_c456145787e745f5aedcb1b4bcc2a5da
 type: Request
 parentId: fld_bc35cda52e934b268973afbc654273ac
-modified: 1680788175655
-created: 1680182215787
-url: localhost:4000/api/my-team/create-my-team
-name: /teams/create-my-team
+modified: 1680794017783
+created: 1680783237855
+url: localhost:4000/api/my-team/update-my-team
+name: /teams/update-my-team
 description: ""
 method: POST
 body:
   mimeType: application/json
   text: |-
     {
-    	"name":"ime tima",
     	"players": [
-    		"6422de8995413766b2073031", 
     		"6422dfa995413766b2073036",
+    		"6422de8995413766b2073031",
     		"6422e137697fa4f6c4407ce4",
     		"6426f902641568475826bf6b",
     		"6426f8e5641568475826bf66",
@@ -28,6 +27,11 @@ body:
     		"6426ab3ab6784532aa3e86f9",
     		"6426fa6c641568475826bf87",
     		"6426fa7b641568475826bf8c"
+    	],
+    	"just_for_copy":[
+    		"642eb8bddb5dd08035f4f644",
+    		"6422dfa995413766b2073036",
+    		"6422de8995413766b2073031"
     	]
     }
 parameters: []
@@ -40,7 +44,7 @@ authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDc4MzI5MCwiZXhwIjoxNjgxMzg4MDkwfQ.kYa-TYiltm8V2Lhs5MaMOeOxQtm2rzozhHK1_5gdchs
   prefix: Bearer
-metaSortKey: -1680182199018
+metaSortKey: -1680137712970
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

@@ -1,15 +1,18 @@
-_id: req_8c7d4a3d494843c3a836d858d74eaf26
+_id: req_93237fc42d4c43a88bbdbba6b373329f
 type: Request
-parentId: fld_295dca38466d42278f75b980234287cf
-modified: 1680692757790
-created: 1679506257486
-url: localhost:4000/api/teams/all
-name: /teams/all
+parentId: fld_1285845596be4d4592962254638c7019
+modified: 1680783208747
+created: 1680692110409
+url: localhost:4000/api/fixtures/get-gameweek-fixture
+name: /fixtures/get-gameweek-fixture
 description: ""
 method: GET
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"gameweek":2
+    }
 parameters: []
 headers:
   - id: pair_0bd40f846c494818b4cec1556f5743bf
@@ -20,7 +23,7 @@ authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
   prefix: Bearer
-metaSortKey: -1679068428072
+metaSortKey: -1680004254626
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

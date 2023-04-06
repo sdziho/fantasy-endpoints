@@ -1,10 +1,10 @@
-_id: req_4727fa8ce1504835b915ba40f1ac7347
+_id: req_bc3eae7f773847b9bc4e23dc97319ad6
 type: Request
-parentId: fld_bd6eaff0e3764baebef54352cdda2b7f
-modified: 1680783495131
-created: 1680004802510
-url: localhost:4000/api/players/all
-name: /players/all
+parentId: fld_1285845596be4d4592962254638c7019
+modified: 1680783207577
+created: 1680688474949
+url: localhost:4000/api/fixtures
+name: /fixtures
 description: ""
 method: GET
 body:
@@ -18,9 +18,9 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDc4MzI5MCwiZXhwIjoxNjgxMzg4MDkwfQ.kYa-TYiltm8V2Lhs5MaMOeOxQtm2rzozhHK1_5gdchs
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
   prefix: Bearer
-metaSortKey: -1679706609573
+metaSortKey: -1680004254676
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

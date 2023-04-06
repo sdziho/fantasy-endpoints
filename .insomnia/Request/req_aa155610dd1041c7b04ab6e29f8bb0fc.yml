@@ -1,20 +1,17 @@
-_id: req_1708af2e50744e4182ed7d7eca090935
+_id: req_aa155610dd1041c7b04ab6e29f8bb0fc
 type: Request
 parentId: fld_bd6eaff0e3764baebef54352cdda2b7f
-modified: 1680783545296
-created: 1680004668085
-url: localhost:4000/api/players/add-player
-name: /players/add-player
+modified: 1680792730169
+created: 1680792054260
+url: localhost:4000/api/players/get-player
+name: /players/get-player
 description: ""
-method: POST
+method: GET
 body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Asmir Suljic",
-    	"position":"MID",
-    	"price":8.0,
-    	"team":"Sarajevo"
+    	"_id":"642eb8bddb5dd08035f4f644"
     }
 parameters: []
 headers:
@@ -26,7 +23,7 @@ authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDc4MzI5MCwiZXhwIjoxNjgxMzg4MDkwfQ.kYa-TYiltm8V2Lhs5MaMOeOxQtm2rzozhHK1_5gdchs
   prefix: Bearer
-metaSortKey: -1680004254826
+metaSortKey: -1679557786946.5
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

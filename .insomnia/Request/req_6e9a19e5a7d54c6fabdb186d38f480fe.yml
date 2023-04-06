@@ -1,15 +1,20 @@
-_id: req_47df84da0895402dbe3b423c223d3e41
+_id: req_6e9a19e5a7d54c6fabdb186d38f480fe
 type: Request
-parentId: fld_bc35cda52e934b268973afbc654273ac
-modified: 1680613981520
-created: 1680613956088
-url: localhost:4000/api/my-team
-name: /my-team
+parentId: fld_1285845596be4d4592962254638c7019
+modified: 1680783210052
+created: 1680692187177
+url: localhost:4000/api/fixtures/add-new-fixture
+name: /fixtures/add-new-fixture
 description: ""
-method: GET
+method: POST
 body:
   mimeType: application/json
-  text: ""
+  text: |-
+    {
+    	"gameweek":1,
+    	"pair":["Velež","Sarajevo"],
+    	"time":"04.05.2023 18:00"
+    }
 parameters: []
 headers:
   - id: pair_0bd40f846c494818b4cec1556f5743bf
@@ -20,7 +25,7 @@ authentication:
   type: bearer
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
   prefix: Bearer
-metaSortKey: -1680093226922
+metaSortKey: -1680004254576
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

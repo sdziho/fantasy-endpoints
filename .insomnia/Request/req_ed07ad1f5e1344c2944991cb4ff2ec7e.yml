@@ -1,0 +1,21 @@
+_id: req_ed07ad1f5e1344c2944991cb4ff2ec7e
+type: Request
+parentId: wrk_5aa1f502ece14a5f8c3765dd97ecf6cb
+modified: 1680703893232
+created: 1680703891733
+url: https://api.sofascore.com/api/v1/event/11125155/incidents
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1680703891733
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
