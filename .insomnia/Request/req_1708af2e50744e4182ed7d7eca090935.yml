@@ -1,7 +1,7 @@
 _id: req_1708af2e50744e4182ed7d7eca090935
 type: Request
 parentId: fld_bd6eaff0e3764baebef54352cdda2b7f
-modified: 1680783545296
+modified: 1680870450325
 created: 1680004668085
 url: localhost:4000/api/players/add-player
 name: /players/add-player
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"name":"Asmir Suljic",
-    	"position":"MID",
+    	"name":"Slaviša Radović",
+    	"position":"DEF",
     	"price":8.0,
     	"team":"Sarajevo"
     }
@@ -24,7 +24,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDc4MzI5MCwiZXhwIjoxNjgxMzg4MDkwfQ.kYa-TYiltm8V2Lhs5MaMOeOxQtm2rzozhHK1_5gdchs
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIEFETUlOIiwidXNlcl9pZCI6IjY0MzAwODQ1YzZlMGY0ZWJlOGEwMmM4NyIsImlhdCI6MTY4MDg2OTQ2MywiZXhwIjoxNjgxNDc0MjYzfQ.efF4rKm9431ehBFDI89N5bjDPCmmmUlJXQj3PDBewUQ
   prefix: Bearer
 metaSortKey: -1680004254826
 isPrivate: false

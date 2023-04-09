@@ -1,7 +1,7 @@
 _id: req_f0af73c39bb74620a264d04869ca8742
 type: Request
 parentId: fld_bd6eaff0e3764baebef54352cdda2b7f
-modified: 1680174043363
+modified: 1680870458333
 created: 1680173981655
 url: localhost:4000/api/players/add-info
 name: /players/add-player-info
@@ -23,7 +23,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIEFETUlOIiwidXNlcl9pZCI6IjY0MzAwODQ1YzZlMGY0ZWJlOGEwMmM4NyIsImlhdCI6MTY4MDg2OTQ2MywiZXhwIjoxNjgxNDc0MjYzfQ.efF4rKm9431ehBFDI89N5bjDPCmmmUlJXQj3PDBewUQ
   prefix: Bearer
 metaSortKey: -1679781020886.25
 isPrivate: false

@@ -1,7 +1,7 @@
 _id: req_dd8f885e175a4a14a114a719bbf76a4a
 type: Request
 parentId: fld_7e44854c1aaa4a539c5fb34c6ed53da7
-modified: 1680180816217
+modified: 1680869479727
 created: 1679408964320
 url: localhost:4000/api/users
 name: /users
@@ -12,7 +12,7 @@ parameters: []
 headers: []
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIEFETUlOIiwidXNlcl9pZCI6IjY0MzAwODQ1YzZlMGY0ZWJlOGEwMmM4NyIsImlhdCI6MTY4MDg2OTQ2MywiZXhwIjoxNjgxNDc0MjYzfQ.efF4rKm9431ehBFDI89N5bjDPCmmmUlJXQj3PDBewUQ
   prefix: Bearer
 metaSortKey: -1679408964320
 isPrivate: false

@@ -1,7 +1,7 @@
 _id: req_39b7842be9054a70b0c8361463270276
 type: Request
 parentId: fld_bd6eaff0e3764baebef54352cdda2b7f
-modified: 1680169888933
+modified: 1680870470806
 created: 1680084736658
 url: localhost:4000/api/players/add-gw-points
 name: /players/add-gw-points
@@ -12,7 +12,7 @@ body:
   text: |-
     {
     	"_id": "6422de8995413766b2073031",
-    	"gw_number": 1,
+    	"gw_number": 2,
     	"mins_played": 10,
     	"goals": 2,
     	"assists": 1,
@@ -30,7 +30,7 @@ headers:
     description: ""
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIiwidXNlcl9pZCI6IjY0MTliZjJlN2UyYWJiNDBjNWMwYmVhNyIsImlhdCI6MTY4MDE2OTA1MCwiZXhwIjoxNjgwNzczODUwfQ._fW-EcWVK_8g_YRdeieg65JW9NjPLG8obqIiZesu6_w
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiU2FkemlkIEFETUlOIiwidXNlcl9pZCI6IjY0MzAwODQ1YzZlMGY0ZWJlOGEwMmM4NyIsImlhdCI6MTY4MDg2OTQ2MywiZXhwIjoxNjgxNDc0MjYzfQ.efF4rKm9431ehBFDI89N5bjDPCmmmUlJXQj3PDBewUQ
   prefix: Bearer
 metaSortKey: -1679855432199.5
 isPrivate: false

@@ -1,7 +1,7 @@
 _id: req_1a208ee73a804ebe93b1ee2b36415867
 type: Request
 parentId: fld_7e44854c1aaa4a539c5fb34c6ed53da7
-modified: 1680004261193
+modified: 1680869474646
 created: 1679068428222
 url: localhost:4000/api/users/register
 name: /users/register
@@ -9,11 +9,12 @@ description: ""
 method: POST
 body:
   mimeType: application/json
-  text: |-
+  text: >-
     {
-    	"name":"Sadzid",
-    	"email":"sadz@gmail.com",
-    	"password":"12345678"
+    	"name": "Sadzid ADMIN",
+    	"email": "sadza.fb@gmail.com",
+    	"password": "12345678",
+    	"admin_secret": "c2676d1b3d3e105a8a4e0c4a1af3ec9e0e8b0a070ca03e4b2c1f46a8d2a1a28"
     }
 parameters: []
 headers:
